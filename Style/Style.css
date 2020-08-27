@@ -1,0 +1,140 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+/* Index */
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    margin: 0px;
+    background-image: linear-gradient(-35deg, rgba(79, 153, 89, 0.466), white);
+    max-height: 100%;
+    max-width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* .skills{
+    max-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+        } */
+
+.menu{
+    min-height: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-align-last: initial;
+    padding-top: 10px;
+    background-color: rgba(61, 104, 63, 0.603);
+}
+
+.pie{
+    max-width: 100%;
+    background: rgba(89, 139, 69, 0.548);
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    color: rgba(101, 167, 123, 0.404);
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.pie img input{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    padding: 20px 30px;
+    color: white;
+    text-decoration: none;
+}
+/* 
+html{
+    width: 100%;
+} */
+
+.btnregistro{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+
+.carousel .carousel-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 500px;
+    height: 500px;
+}
+
+/* Registro */
+
+div{
+    text-align: center;
+}
+#v1{
+    height: 75px;
+    width: 200px;
+    background-color: rgba(92, 148, 90, 0.342);
+    color: white;
+}
+
+
+#v2{
+    background-color: rgba(63, 121, 80, 0.329);
+    color: white;
+}
+
+.input-group{
+    width: 30%;
+    margin-top: 30px;
+    margin: 0 auto;
+}
+
+span{
+    cursor: pointer;
+}
+
+#contraseña{
+    width: 213px;
+    height: 30px;
+}
+
+#apellidos{
+    height: 30px;
+}
+
+#nombre{
+    height: 30px;
+}
+
+#correo{
+    width: 250px;
+    height: 30px;
+}
+
+
+
+
+
